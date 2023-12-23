@@ -1,0 +1,708 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#loaderimg {
+
+}
+
+#mcncn {
+    
+}
+
+
+
+.logo {
+    width: 500px;
+    font-size: 25px;
+    padding: 8px;
+    font-family: monospace;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+.color {
+    color: red;
+}
+.items {
+    color: #545252;
+}
+.items a {
+    text-decoration: none;
+    color: #545252;
+}
+.items:hover {
+    font-size: 17px;
+}
+.items :hover {
+    color: black;
+    animation-delay: 0.10s;
+}
+
+.nav {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* silider */
+
+.red {
+    color: red;
+}
+
+.img {
+    width: 100%;
+    height: 700px;
+    background-image: url(hacking-cryptocurrency-concept-hacker-using-laptop-creative-coding-bitcoin-sign-150668692.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-size: 65px;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* pages */
+
+.pages {
+    background-color: white;
+    width: 20%;
+    height: 300px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    width: 150px;
+    height: auto;
+
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.heading h3 {
+    color: rgb(0 126 255);
+}
+.para {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.para p {
+    text-align: justify;
+}
+
+.therd {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.ftr {
+    /* background-color: black; */
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.phot {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+hr {
+    width: 90%;
+    height: 5px;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 50px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+}
+
+.icons .fa {
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.pttrn {
+    color: #a7a0a0;
+    text-align: center;
+    margin-top: 1%;
+    padding: 0px 0px 10px 0px;
+}
+
+/* ...............Responsive................. */
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+
+    .nav {
+        background-color: white;
+        width: 98%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .logo {
+        width: 500px;
+        font-size: 12px;
+        padding: 8px;
+        font-family: monospace;
+    }
+
+    .items {
+        padding: 6px;
+        font-size: 7px;
+    }
+
+    .nmbr {
+        
+    }
+
+    .img {
+        width: 100%;
+        height: 340px;
+        background-image: url(hacking-cryptocurrency-concept-hacker-using-laptop-creative-coding-bitcoin-sign-150668692.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #ae9a22;;
+        font-size: 30px;
+        font-family: fantasy;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .therd {
+        margin-top: 2%;
+        display: block;
+        text-align: center;
+        width: 75%;
+        padding: 5px;
+    }
+    .pages {
+        background-color: white;
+        width: 134%;
+        height: 300px;
+    }
+
+    .ftr {
+    color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    
+}
+
+.fst {
+    margin-top: 5%;
+}
+.sec {
+    margin-top: 5%;
+}
+.trd {
+    margin-top: 5%;
+}
+.for {
+    margin-top: 5%;
+}
+
+.icons .fa {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #231a5b;
+    color: white;
+    display: block !important;
+    text-align: center;
+    padding: 3%;
+}
+.services ul ,h4 {
+    font-family: math;
+    font-size: 21px;
+    margin-top: 15%;
+}
+.abt .usd {
+    margin-top: 2%;
+    text-align: justify;
+    padding: 15px;
+}
+.abt .sec-content {
+    width: 99%;
+    margin-top: 4%;
+    text-align: justify;
+    padding: 15px;
+}
+.abt {
+    background-color: #DADBDD;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100% !important;
+    text-align: center;
+}
+.abt .sec-content {
+    width: 100% !important;
+    margin-top: 4%;
+    text-align: justify;
+    margin-left: 0px !important;
+}
+
+.phto {
+    background-image: url(istockphoto-1067437062-170667a.jpg);
+    width: 100% !important;
+    height: 341px;
+    background-repeat: no-repeat;
+    margin-top: 4%;
+    margin-left: 0px !important;
+}
+.abt .us {
+    font-size: 35px !important;
+    font-family: system-ui;
+    font-weight: 700;
+}
+.jbs {
+    font-size: 25px !important;
+    font-family: ui-monospace;
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
+
+.jobs {
+    width: 100% !important;
+    height: auto !important;
+    background-color:#d2e0ff !important;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+    margin-top: 1% !important;
+}
+.jobs .job1 {
+    border: 1px solid black;
+    width: 70% !important;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+.firstcnct {
+    font-size: 20px !important;
+    font-weight: 600;
+    height: fit-content;
+    background-color: #3d3d8d;
+    border-radius: 50px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+} 
+.otrjb .one {
+    font-size: 12px !important;
+    font-weight: 100;
+    height: fit-content;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 2% ;
+    border-radius: 50px;
+    margin-left: 4% !important;
+}
+.allp {
+    display: block;
+  
+}
+.otrjb .two {
+    font-size: 18px;
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100% !important;
+    background-color: white;
+    margin-top: 3% !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contect {
+    background: url(contectus.jpg);
+    width: 100%;
+    height: 885px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: -4%;
+}
+
+.smsg {
+    background-color: white;
+    width: 80% !important;
+    height: 313px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10% !important;
+    color: black;
+}
+}
+
+
+
+/* ..............services page..............  */
+
+h1 {
+    background-color: #928067;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+span {
+    font-size: 48px;
+    color: black;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #231a5b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+.services ul li {
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin-top: 2%;
+}
+.services ul ,h4 {
+    font-family: math;
+    font-size: 21px;
+}
+
+/* ...............About page................. */
+
+.abt {
+    background-color: #DADBDD;
+    box-sizing: border-box;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+}
+.abt .us {
+    font-size: 60px;
+    font-family: system-ui;
+    font-weight: 700;
+}
+.abt .usd {
+    margin-top: 2%;
+    text-align: justify;
+    padding: 35px;
+}
+.phto {
+    background-image: url(istockphoto-1067437062-170667a.jpg);
+    width: 33%;
+    height: 341px;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.abt .sec-content {
+    width: 58%;
+    margin-top: 4%;
+    margin-left: 600px;
+    text-align: justify;
+}
+
+/* ................ jobs page.................... */
+.jobs {
+    width: 100%;
+    height: auto;
+    background-color:#d2e0ff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1%;
+}
+.jobs .job1 {
+    border: 1px solid black;
+    width: 18%;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+.jobs .job1:hover{
+    background-color: black;
+    color: white;
+}
+
+.jobs .job1 a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+.jobs .job1 img {
+    width: 130px;
+    margin-top: 43px;
+}
+.jobs .job1 .job2 {
+    margin-top: 30px;
+    text-align: justify;
+    
+}
+
+.jbs {
+    font-size: 60px;
+    font-family: ui-monospace;
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
+
+.jbs:hover {
+    background-color: #3d3d8d;
+    color: white;
+}
+
+/* ..................othors jobs.................... */
+
+.otrjb {
+    background-color: #d2e0ff;
+    background-color: #d2e0ff;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 6%;
+   
+}
+.firstcnct {
+    font-size: 50px;
+    font-weight: 600;
+    height: fit-content;
+    background-color: #3d3d8d;
+    border-radius: 50px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}  
+.firstcnct:hover {
+    color: white;
+   
+}
+.otrjb .one {
+    font-size: 18px;
+    font-weight: 100;
+    height: fit-content;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 2%;
+    border-radius: 50px;
+    margin-left: 1%;
+}
+
+.otrjb .one:hover{
+    background-color: black;
+    color: white;
+}
+.allp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.otrjb .two {
+    font-size: 18px;
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: normal;
+    width: 16%;
+    background-color: white;
+    margin-top: 1%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.otrjb .two:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ................contect page............... */
+
+.contect {
+    background: url(contectus.jpg);
+    width: 100%;
+    height: 665px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: -4%;
+    
+}
+
+.cus {
+    font-size: 50px;
+    font-weight: 600;
+    width: max-content;
+    margin: auto;
+    margin-top: 4%;
+    padding: 30px;
+}
+.plrm {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+}
+.contect .fa-map-marker {
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    margin-left: -48px;
+    margin-right: 10px;
+}
+.contect .fa-phone {
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    margin-left: -48px;
+    margin-right: 10px;
+}
+.contect .fa-envelope-o {
+    padding: 10px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    margin-left: -48px;
+    margin-right: 10px;
+}
+
+.apm {
+    margin-top: 8%;
+    margin-left: 25%;
+    float: left;
+    
+}
+.ad {
+    color: #00ff00;
+    font-weight: 600;
+}
+.smsg {
+    background-color: white;
+    width: 20%;
+    height: 313px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 4%;
+    color: black;
+}
+.sndmsg {
+    font-size: 22px;
+    padding: 12px;
+    background-color: pink;
+}
+.fullname input {
+        margin-left: 10px;
+        width: 90%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-top: 14px;
+}
+.eml input {
+    margin-left: 10px;
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 14px;
+}
+.tym textarea {
+    margin-left: 10px;
+    width: 90%;
+    padding: 10px;
+    /* outline: none; */
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 14px;
+    height: 78px;
+}
+.botm button {
+    margin-left: 10px;
+    width: 30%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 13px;
+    font-size: 16px;
+    background-color: pink;
+}
+.botm button:hover {
+    border: 1px solid black;
+}
